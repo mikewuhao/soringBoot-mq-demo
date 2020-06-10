@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @author wuhao
  * @Title: RocketMQProducer
  * @Description: 消息生产者
- * @date 2020/4/17 17:31
+ * @date 2020/6/9 17:31
  */
 @Configuration
 @Slf4j

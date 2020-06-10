@@ -4,7 +4,7 @@ import com.wuhao.domain.User;
 
 /**
  * @Description: User的Service
- * @CreateDate: 2020-02-05 09:35
+ * @CreateDate: 2020-06-09 09:35
  * @Author: wuhao
  */
 public interface UserService {

@@ -16,9 +16,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 /**
  * @author wuhao
- * @Title: RocketMqController
+ * @Title: MqController
  * @Description: Mq测试 controller
- * @date 2020/4/17 17:38
+ * @date 2020/6/9 17:38
  */
 @RestController
 @Slf4j
@@ -30,8 +30,8 @@ public class MqController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/test")
-    public void TestSend() {
+    @GetMapping("/testSend")
+    public void testSend() {
 
         DefaultMQProducer producer = rocketMQProducer.getRocketMQProducer();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
